@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  post_id: 
+  image_library_upload_id: 
+  position: 1
+
+two:
+  post_id: 
+  image_library_upload_id: 
+  position: 1

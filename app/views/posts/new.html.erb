@@ -1,0 +1,18 @@
+<%= nested_form_for @post do |f| %>
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title, class: "form-control" %>
+  </p>
+
+  <%= f.fields_for :post_images %>
+  <%= f.link_to_add "Add image", :post_images %>
+
+  <p>
+    <%= f.label :content %>
+    <%= f.text_area :content, class: "form-control" %>
+  </p>
+
+  <%= f.submit name: "", class: "btn btn-primary" %>
+<% end %>
+
+<%= render partial: 'image_library/uploads/chooser' %>

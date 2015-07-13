@@ -1,0 +1,13 @@
+<article>
+  <p><%= link_to "&larr; Back to all posts".html_safe, posts_path %></p>
+
+  <h1><%= @post.title %></h1>
+
+  <% @post.image_library_uploads.each do |image| %>
+    <%= image_tag image.image.large.url %>
+  <% end %>
+
+  <div class="content">
+    <p><%= @post.content %></p>
+  </div>
+</article>
