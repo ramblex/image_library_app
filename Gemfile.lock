@@ -1,5 +1,6 @@
-PATH
-  remote: /home/alex/code/image_library
+GIT
+  remote: git://github.com/ramblex/image_library.git
+  revision: b75396e6dafc6cd885ec3b081a27241d90da1145
   specs:
     image_library (0.0.1)
       carrierwave (~> 0.10.0)

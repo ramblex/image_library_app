@@ -28,7 +28,7 @@ gem 'pundit'
 gem 'devise'
 
 gem 'bootstrap-sass', '~> 3.3.3'
-gem 'image_library', path: '/home/alex/code/image_library'
+gem 'image_library', github: 'ramblex/image_library'
 gem 'nested_form'
 
 # Use ActiveModel has_secure_password
